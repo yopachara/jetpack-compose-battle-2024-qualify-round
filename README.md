@@ -70,7 +70,7 @@ Jetpack Compose Battle is a competition challenging Android developers in Thaila
 * Qualifiers will proceed to the final round on February 17, 2024, at MuvMi's headquarters.
 
 ## Prizes
-* อ1st Place: Android Mini Collectible @Work Series - Tech Support / IT / Engineer
+* 1st Place: Android Mini Collectible @Work Series - Tech Support / IT / Engineer
 
 ![รางวัลอันดับที่ 1](images%2Fprize_first.png)
 

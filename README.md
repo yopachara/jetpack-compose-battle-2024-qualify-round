@@ -90,7 +90,7 @@ Additionally, all finalists will receive special gifts from MuvMi.
 
 ## Qualifying Round Guidelines
 1. Participants must create UIs with Jetpack Compose by forking from this repository only.
-2. The UI to be created consists of 3 screens, detailed in Figma -> Qualifying Round Challenges
+2. The UI to be created consists of 3 screens, detailed in Figma -> [Qualifying Round Challenges](https://www.figma.com/file/AsOdXenDJAp89aTxGT996v/Jetpack-Compose-Battle---Qualify-Day?type=design&node-id=54766%3A246&mode=dev)
 3. The challenges are in 3 separate files:
     * `<project>/common/src/main/java/com/github/thailandandroiddeveloper/common/ui/screen/Qualify1Screen.kt`
     * `<project>/common/src/main/java/com/github/thailandandroiddeveloper/common/ui/screen/Qualify2Screen.kt`
@@ -107,7 +107,7 @@ Additionally, all finalists will receive special gifts from MuvMi.
 10. Original images for Snapshot Testing are in `/screenshot-test/src/test/snapshots/images` (do not modify).
 
 ## Submission
-* Submit the GitHub URL of your project and fill in your personal information here.
+* Submit the GitHub URL of your project and fill in your personal information -> [Submission form](https://forms.gle/FQesDoGdFcuLacdt7)
 * The repository can be private for peace of mind, but the judging team must be invited as **Admin**:
     * `judrummer` or `Tipatai Puthanukunkit`
     * `akexorcist` or `Akexorcist`

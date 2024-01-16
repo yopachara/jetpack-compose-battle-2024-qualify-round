@@ -30,7 +30,7 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
 
 นอกจากนี้ผู้เข้าแข่งขันในรอบสุดท้ายทุกท่านจะได้รับของสมนาคุณจากบริษัท MuvMi อีกด้วย
 
-## กติการในรอบคัดเลือก
+## กติกาในรอบคัดเลือก
 1. ผู้เข้าแข่งขันจะต้องสร้าง UI ด้วย Jetpack Compose ที่ Fork จาก Repository นี้เท่านั้น
 2. UI ที่จะต้องสร้างมีทั้งหมด 3 หน้าด้วยกัน สามารถดูได้จาก Figma -> [โจทย์รอบคัดเลือก](https://www.figma.com/file/AsOdXenDJAp89aTxGT996v/Jetpack-Compose-Battle---Qualify-Day?type=design&node-id=54766%3A246&mode=dev)
 3. โจทย์มีทั้งหมด 3 ข้อ โดยจะอยู่ในไฟล์ดังนี้

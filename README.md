@@ -105,8 +105,8 @@ Additionally, all finalists will receive special gifts from MuvMi.
 4. Composable functions can be added as desired, but refrain from modifying data in `@Preview` in those files.
 5. Do not use external images; use those prepared in the project located at `<project>/common/src/main/res`.
 6. All image file names should match those in Figma and be accessed through Android Resource.
-7. Various values like size, font, and text thickness can be derived from Figma and accessed through MaterialTheme. For example: `MaterialTheme.typography.headlineMedium.fontSize`
-8. UI color values can be obtained from Figma and accessed through MaterialTheme. For example: `MaterialTheme.colors.primary`
+7. Various values like size, font, and text thickness can be derived from Figma and accessed through `MaterialTheme`. For example: `MaterialTheme.typography.headlineMedium.fontSize`
+8. UI color values can be obtained from Figma and accessed through `MaterialTheme`. For example: `MaterialTheme.colors.primary`
 9. Scores will be calculated through Snapshot Testing with Paparazzi. Competitors can test using `./gradlew :screenshot-test:verifyPaparazziDebug` before submission.
     * Results will be in `<project>/screenshot-test/diff/`, indicating differences from the correct images.
     * Snapshot Testing results are presented as percentages comparing with the original images.

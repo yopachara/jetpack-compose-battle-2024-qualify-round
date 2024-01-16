@@ -1,8 +1,11 @@
 ![header.jpg](images%2Fheader.jpg)
 
-# Jetpack Compose Battle - Qualify Round 
-# Thai
+# Jetpack Compose Battle - Qualify Round
 [English at below](#english)
+
+---
+
+# Thai
 
 Jetpack Compose Battle เป็นงานแข่งขันที่จะให้นักพัฒนาแอนดรอยด์ในประเทศไทยแข่งกันสร้าง UI ด้วย Jetpack Compose ที่เป็น UI Framework ตัวใหม่ล่าสุดทางทีมแอนดรอยด์
 
@@ -56,6 +59,10 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
   * `judrummer` หรือ `Tipatai Puthanukunkit`
   * `akexorcist` หรือ `Akexorcist`
 * ผลการแข่งขันจะประกาศภายในวันที่ 31 มกราคม 2024
+
+## เวอร์ชันของโปรแกรมที่แนะนำ
+* Android Studio Hedgehog 2023.1.1 Patch 1 (Latest Stable)
+* Embedded JDK (JBR 17.0.7)
 
 ---
 
@@ -113,6 +120,9 @@ Additionally, all finalists will receive special gifts from MuvMi.
     * `akexorcist` or `Akexorcist`
 * Results will be announced on January 31, 2024.
 
+## Recommended Program Version
+* Android Studio Hedgehog 2023.1.1 Patch 1 (Latest Stable)
+* Embedded JDK (JBR 17.0.7)
 
 ## Sponsors
 * [MuvMi](https://muvmi.co/)

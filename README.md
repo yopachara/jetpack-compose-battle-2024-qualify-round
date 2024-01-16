@@ -1,4 +1,7 @@
-# Jetpack Compose Battle - Qualify Round
+![header.jpg](images%2Fheader.jpg)
+
+# Jetpack Compose Battle - Qualify Round (Thai)
+> English at below
 Jetpack Compose Battle เป็นงานแข่งขันที่จะให้นักพัฒนาแอนดรอยด์ในประเทศไทยแข่งกันสร้าง UI ด้วย Jetpack Compose ที่เป็น UI Framework ตัวใหม่ล่าสุดทางทีมแอนดรอยด์
 
 ## รายละเอียดสำหรับรอบคัดเลือก
@@ -47,10 +50,65 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
 
 ## การส่งโจทย์
 * ให้ส่งโจทย์เป็น GitHub URL แล้วกรอกข้อมูลส่วนตัวพร้อมกับ URL ดังกล่าว -> [ส่งโจทย์รอบคัดเลือก](https://forms.gle/FQesDoGdFcuLacdt7)
-* สามารถทำเป็น Private Repository เพื่อความสบายใจได้ แต่จะต้องเชิญทีมงานเข้าไปใน Repository ดังกล่าวด้วย
+* สามารถทำเป็น Private Repository เพื่อความสบายใจได้ แต่จะต้องเชิญทีมงานเข้าไปเป็น **Admin** ใน Repository ดังกล่าวด้วย
   * `judrummer` หรือ `Tipatai Puthanukunkit`
   * `akexorcist` หรือ `Akexorcist`
 * ผลการแข่งขันจะประกาศภายในวันที่ 31 มกราคม 2024
+
+# Jetpack Compose Battle - Qualify Round (English)
+Jetpack Compose Battle is a competition challenging Android developers in Thailand to create UIs using Jetpack Compose, the latest UI framework from the Android team.
+
+## Qualifying Round Details
+* Participants can start working on the challenges from January 17, 2024, until the deadline.
+* Competitors must create UIs with Jetpack Compose based on the specifications provided in Figma.
+* Scores will be calculated based on the accuracy of the UI as assessed by Snapshot Testing.
+* The qualifying round concludes on January 27, 2024, at 23:59, with results announced on January 31, 2024.
+* Qualifiers will proceed to the final round on February 17, 2024, at MuvMi's headquarters.
+
+## Prizes
+* อ1st Place: Android Mini Collectible @Work Series - Tech Support / IT / Engineer
+
+![รางวัลอันดับที่ 1](images%2Fprize_first.png)
+
+* 2nd Place: Android Mini Collectible @Work Series - Developer / Coder / Cyber Security
+
+![รางวัลอันดับที่ 2](images%2Fprize_second.png)
+
+* 3rd Place: "The Team That Built the Android Operating System" book by Chet Haase
+
+![รางวัลอันดับที่ 3](images%2Fprize_third.png)
+
+* 4th Place: Android Wind-up Robot
+
+![รางวัลอันดับที่ 4](images%2Fprize_fourth.png)
+
+Additionally, all finalists will receive special gifts from MuvMi.
+
+## Qualifying Round Guidelines
+1. Participants must create UIs with Jetpack Compose by forking from this repository only.
+2. The UI to be created consists of 3 screens, detailed in Figma -> Qualifying Round Challenges
+3. The challenges are in 3 separate files:
+    * `<project>/common/src/main/java/com/github/thailandandroiddeveloper/common/ui/screen/Qualify1Screen.kt`
+    * `<project>/common/src/main/java/com/github/thailandandroiddeveloper/common/ui/screen/Qualify2Screen.kt`
+    * `<project>/common/src/main/java/com/github/thailandandroiddeveloper/common/ui/screen/Qualify3Screen.kt`
+4. Composable functions can be added as desired, but refrain from modifying data in `@Preview` in those files.
+5. Do not use external images; use those prepared in the project located at `<project>/common/src/main/res`.
+6. All image file names should match those in Figma and be accessed through Android Resource.
+7. Various values like size, font, and text thickness can be derived from Figma and accessed through MaterialTheme.
+8. UI color values can be obtained from Figma and accessed through MaterialTheme.
+9. Scores will be calculated through Snapshot Testing with Paparazzi. Competitors can test using `./gradlew :screenshot-test:verifyPaparazziDebug` before submission.
+    * Results will be in `<project>/screenshot-test/diff/`, indicating differences from the correct images.
+    * Snapshot Testing results are presented as percentages comparing with the original images.
+    * A result of 0 means 100% accuracy.
+10. Original images for Snapshot Testing are in `/screenshot-test/src/test/snapshots/images` (do not modify).
+
+## Submission
+* Submit the GitHub URL of your project and fill in your personal information here.
+* The repository can be private for peace of mind, but the judging team must be invited as **Admin**:
+    * `judrummer` or `Tipatai Puthanukunkit`
+    * `akexorcist` or `Akexorcist`
+* Results will be announced on January 31, 2024.
+
 
 ## Sponsors
 * [MuvMi](https://muvmi.co/)

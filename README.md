@@ -10,15 +10,19 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
 
 ## ของรางวัล
 * อันดับที่ 1 Android Mini Collectible @Work Series - Tech Support / IT / Engineer
+
 ![รางวัลอันดับที่ 1](images%2Fprize_first.png)
 
 * อันดับที่ 2 Android Mini Collectible @Work Series - Developer / Coder / Cyber Security
+
 ![รางวัลอันดับที่ 2](images%2Fprize_second.png)
 
 * อันดับที่ 3 หนังสือ The Team That Built the Android Operating System ของ Chet Haase
+
 ![รางวัลอันดับที่ 3](images%2Fprize_third.png)
 
 * อันดับที่ 4 หุ่นยนต์ไขลาน Android Wind-up
+
 ![รางวัลอันดับที่ 4](images%2Fprize_fourth.png)
 
 นอกจากนี้ผู้เข้าแข่งขันในรอบสุดท้ายทุกท่านจะได้รับของสมนาคุณจากบริษัท MuvMi อีกด้วย

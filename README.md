@@ -1,7 +1,9 @@
 ![header.jpg](images%2Fheader.jpg)
 
-# Jetpack Compose Battle - Qualify Round (Thai)
+# Jetpack Compose Battle - Qualify Round 
+# Thai
 > English at below
+
 Jetpack Compose Battle เป็นงานแข่งขันที่จะให้นักพัฒนาแอนดรอยด์ในประเทศไทยแข่งกันสร้าง UI ด้วย Jetpack Compose ที่เป็น UI Framework ตัวใหม่ล่าสุดทางทีมแอนดรอยด์
 
 ## รายละเอียดสำหรับรอบคัดเลือก
@@ -55,7 +57,9 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
   * `akexorcist` หรือ `Akexorcist`
 * ผลการแข่งขันจะประกาศภายในวันที่ 31 มกราคม 2024
 
-# Jetpack Compose Battle - Qualify Round (English)
+---
+
+# (English)
 Jetpack Compose Battle is a competition challenging Android developers in Thailand to create UIs using Jetpack Compose, the latest UI framework from the Android team.
 
 ## Qualifying Round Details

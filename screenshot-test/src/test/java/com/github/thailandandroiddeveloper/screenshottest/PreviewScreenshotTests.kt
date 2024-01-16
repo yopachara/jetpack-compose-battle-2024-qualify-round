@@ -86,6 +86,7 @@ class PreviewScreenshotTests {
                 val file = File(filePath)
                 file.writeText(fileContent)
             }
+            throw e
         }
     }
 }

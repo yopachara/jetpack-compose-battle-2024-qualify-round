@@ -59,7 +59,7 @@ Jetpack Compose Battle เป็นงานแข่งขันที่จะ
 
 ---
 
-# (English)
+# English
 Jetpack Compose Battle is a competition challenging Android developers in Thailand to create UIs using Jetpack Compose, the latest UI framework from the Android team.
 
 ## Qualifying Round Details

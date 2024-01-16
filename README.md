@@ -64,10 +64,10 @@ Jetpack Compose Battle is a competition challenging Android developers in Thaila
 
 ## Qualifying Round Details
 * Participants can start working on the challenges from January 17, 2024, until the deadline.
-* Competitors must create UIs with Jetpack Compose based on the specifications provided in Figma.
+* Competitors must create the UIs with Jetpack Compose based on the specifications provided in Figma.
 * Scores will be calculated based on the accuracy of the UI as assessed by Snapshot Testing.
 * The qualifying round concludes on January 27, 2024, at 23:59, with results announced on January 31, 2024.
-* Qualifiers will proceed to the final round on February 17, 2024, at MuvMi's headquarters.
+* Qualifiers will proceed to the final round on February 17, 2024, at MuvMi's headquarter.
 
 ## Prizes
 * 1st Place: Android Mini Collectible @Work Series - Tech Support / IT / Engineer

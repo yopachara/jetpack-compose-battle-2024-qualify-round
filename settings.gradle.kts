@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "cbth2024"
+rootProject.name = "jetpack-compose-battle-2024-qualify-round"
 include(":app")
 include(":common")
 include(":screenshot-test")

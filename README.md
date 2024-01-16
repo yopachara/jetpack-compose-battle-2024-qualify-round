@@ -2,7 +2,7 @@
 
 # Jetpack Compose Battle - Qualify Round 
 # Thai
-> (English at below)[#english]
+[English at below](#english)
 
 Jetpack Compose Battle เป็นงานแข่งขันที่จะให้นักพัฒนาแอนดรอยด์ในประเทศไทยแข่งกันสร้าง UI ด้วย Jetpack Compose ที่เป็น UI Framework ตัวใหม่ล่าสุดทางทีมแอนดรอยด์
 

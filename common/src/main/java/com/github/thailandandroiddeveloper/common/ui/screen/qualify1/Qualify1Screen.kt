@@ -7,9 +7,11 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -25,6 +27,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.ColorMatrix
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -77,10 +81,13 @@ private fun ProfileComponent(
     onThumbUpClicked: () -> Unit = {},
     onThumbDownClicked: () -> Unit = {},
 ) {
-    Surface(Modifier.padding()) {
+    Surface(
+        color = Color.White,
+        modifier = Modifier.padding()
+    ) {
         OverlappingBoxes(
             modifier = Modifier
-                .padding(top = 32.dp, bottom = 48.dp)
+                .padding(top = 16.dp, bottom = 48.dp)
                 .padding(horizontal = 16.dp)
 
         ) {
@@ -97,17 +104,29 @@ private fun ProfileComponent(
 private fun ProfileContainer() {
     Surface(
         shape = RoundedCornerShape(16.dp),
+        modifier = Modifier
+            .fillMaxWidth()
+            .width(380.dp)
+            .height(763.dp)
     ) {
         Box {
+            val matrix = ColorMatrix()
+            matrix.setToSaturation(1f)
             Image(
                 painter = painterResource(id = R.drawable.img_qualify_1_profile),
-                contentScale = ContentScale.Crop,
-                contentDescription = null
+                contentDescription = "image description",
+                contentScale = ContentScale.FillBounds,
+                colorFilter = ColorFilter.colorMatrix(matrix),
+                modifier = Modifier
+                    .width(380.dp)
+                    .height(763.dp)
             )
             Column(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 modifier = Modifier
                     .fillMaxWidth()
+                    .width(379.dp)
+                    .height(192.dp)
                     .background(color = MaterialTheme.colorScheme.primary.copy(alpha = 0.75f))
                     .align(Alignment.BottomCenter)
                     .padding(horizontal = 20.dp)
@@ -122,7 +141,7 @@ private fun ProfileContainer() {
                 )
                 SexContent(Sex.Male)
                 Text(
-                    text = LoremIpsum(16).values.first(),
+                    text = "Lorem ipsum dolor sit amet, cd nulla lacinia, quis fringilla lorem imperdiet. Proin in quam vel odio iaculis fringilla.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onPrimary
                 )
@@ -136,12 +155,15 @@ private fun ThumbButtonContainer(
     onThumbUpClicked: () -> Unit = {},
     onThumbDownClicked: () -> Unit = {},
 ) {
-    Row(horizontalArrangement = Arrangement.SpaceBetween) {
+    Row(
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
         Button(
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.errorContainer
             ),
             modifier = Modifier
+                .padding(0.5.dp)
                 .width(120.dp)
                 .height(48.dp),
             onClick = onThumbDownClicked
@@ -149,7 +171,8 @@ private fun ThumbButtonContainer(
             Icon(
                 painter = painterResource(id = R.drawable.ic_qualify_1_thumb_down),
                 contentDescription = "thumb_down_button",
-                tint = Color.Unspecified
+                tint = MaterialTheme.colorScheme.onErrorContainer,
+                modifier = Modifier
             )
         }
         Spacer(modifier = Modifier.width(43.dp))
@@ -158,6 +181,7 @@ private fun ThumbButtonContainer(
                 containerColor = MaterialTheme.colorScheme.primaryContainer
             ),
             modifier = Modifier
+                .padding(0.5.dp)
                 .width(120.dp)
                 .height(48.dp),
             onClick = onThumbUpClicked
@@ -165,7 +189,7 @@ private fun ThumbButtonContainer(
             Icon(
                 painter = painterResource(id = R.drawable.ic_qualify_1_thumb_up),
                 contentDescription = "thumb_up_button",
-                tint = Color.Unspecified
+                tint = MaterialTheme.colorScheme.onPrimaryContainer,
             )
         }
     }
@@ -178,7 +202,7 @@ enum class Sex {
 
 @Composable
 private fun SexContent(sex: Sex) {
-    Row(verticalAlignment = Alignment.CenterVertically) {
+    Row(verticalAlignment = Alignment.Top) {
         Icon(
             painter = painterResource(
                 id = if (sex == Sex.Male) {
@@ -189,7 +213,8 @@ private fun SexContent(sex: Sex) {
                 }
             ),
             contentDescription = "sex_icon",
-            tint = Color.Unspecified
+            tint = Color.Unspecified,
+            modifier = Modifier.size(16.dp)
         )
         Spacer(modifier = Modifier.width(8.dp))
         Text(
